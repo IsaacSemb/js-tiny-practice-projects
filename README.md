@@ -141,9 +141,8 @@ There are no rules here, only the commitment to keep going.
 ---
 
 ## 📬 Contact / Say Hi
-
-If you somehow landed here and wanna vibe about JavaScript or coding consistency, I’m down!  
-Hit me up on 
+If you're interested in software engineering, development, or technology in general, 
+I'd be happy to connect and chat. Feel free to reach out through any of the platforms below:
 - 🐙 [GitHub](https://github.com/IsaacSemb).
 - 💼 [LinkedIn](https://www.linkedin.com/in/isaac-semb).
 - 📧 [Gmail](mailto:isaacsemb1996@gmail.com)
@@ -154,7 +153,7 @@ Hit me up on
 
 **MIT License** — Feel free to use, remix, or learn from this however you like.  
 If it helps you on your coding journey, even better.  
-Just don’t forget: write code, but also go outside and touch some grass 
+Just don’t forget: write code, but also go outside and touch some grass  
 the world’s bigger than your screen. 🌍
 
 ---
