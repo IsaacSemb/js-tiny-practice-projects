@@ -86,7 +86,7 @@ There are no rules here, only the commitment to keep going.
 
 ---
 
-## 📌 Future Plans
+## 📌 Future Plans (Expandable for details)
 
 <details>
 <summary>🧱 <strong>Project Growth</strong></summary>
