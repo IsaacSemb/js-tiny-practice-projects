@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: black;
+  overflow: hidden;
+}
+
+span {
+  /* color: blue; */
+  width: 100px;
+  height: 100px;
+
+  /* our image to animate, the heart icon */
+  background: url("https://cdn4.iconfinder.com/data/icons/general-office/91/General_Office_54-256.png");
+
+  /* take the element out of the flow of the document */
+  position: absolute;
+
+  /* Prevent spans from blocking mousemove event */
+  pointer-events: none;
+
+  /* display: none; */
+  background-size: cover;
+
+  /* moving heart to middle from top line and left line */
+  left: 50%;
+  top: 50%;
+
+  /* offsetting it correctly to display it in the real middle */
+
+  transform: translate(-50%, -50%);
+
+  /* adding our animation to the mix */
+
+  animation: movingHearts 7s ease-out;
+}
+
+/* creating our animation */
+
+@keyframes movingHearts {
+  /* start behavior */
+  0% {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+
+    /* changeing its colur over time */
+    filter: hue-rotate(0);
+  }
+
+  /* ending behavior */
+  100% {
+    /* set top to big number so as to make it disaappear from the screen */
+    transform: translate(-50%, -4000%);
+    opacity: 0;
+
+    /* changeing its colur over time */
+    filter: hue-rotate(720deg);
+  }
+}
