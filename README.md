@@ -2,7 +2,7 @@
 
 This is my personal JavaScript practice repository.
 
-Anything I find interesting to build using **vanilla JavaScript, HTML, and CSS**, I drop in here—no frameworks, just raw creativity and learning.
+Anything I find interesting to build using **vanilla JavaScript, HTML, and CSS**, I drop in here no frameworks, just raw creativity and learning.
 
 This repository serves as a personal space to sharpen core front-end development skills through consistent, hands-on practice.
 
@@ -43,11 +43,6 @@ The homepage (`/0000-homepage`) links to each live project and is automatically 
 
 Check out the live site here:  
 👉 [isaacsemb.github.io/js-tiny-practice-projects](https://isaacsemb.github.io/js-tiny-practice-projects)
-
-Ohhh say less—that's a dope idea.  
-You’re basically curating your **Top 5 Hall of Fame** while the rest live quietly in the archive. Respect.
-
-Here’s a cleaner, intentional rewrite of that section to reflect that:
 
 ---
 
@@ -91,7 +86,7 @@ There are no rules here, only the commitment to keep going.
 
 ---
 
-## 📌 Future Plans
+## 📌 Future Plans (Expandable for details)
 
 <details>
 <summary>🧱 <strong>Project Growth</strong></summary>
@@ -146,9 +141,8 @@ There are no rules here, only the commitment to keep going.
 ---
 
 ## 📬 Contact / Say Hi
-
-If you somehow landed here and wanna vibe about JavaScript or coding consistency, I’m down!  
-Hit me up on 
+If you're interested in software engineering, development, or technology in general, 
+I'd be happy to connect and chat. Feel free to reach out through any of the platforms below:
 - 🐙 [GitHub](https://github.com/IsaacSemb).
 - 💼 [LinkedIn](https://www.linkedin.com/in/isaac-semb).
 - 📧 [Gmail](mailto:isaacsemb1996@gmail.com)
@@ -159,7 +153,7 @@ Hit me up on
 
 **MIT License** — Feel free to use, remix, or learn from this however you like.  
 If it helps you on your coding journey, even better.  
-Just don’t forget: write code, but also go outside and touch some grass 
+Just don’t forget: write code, but also go outside and touch some grass  
 the world’s bigger than your screen. 🌍
 
 ---
