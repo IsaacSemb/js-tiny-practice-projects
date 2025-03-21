@@ -1,0 +1,18 @@
+body {
+    height: 100vh;
+  
+    /* centering our words */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    /* our google font */
+    font-family: "Matemasie", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(53, 82, 53);
+  
+    /* our background color for our body */
+    background-color: coral;
+  }
+  
