@@ -44,11 +44,6 @@ The homepage (`/0000-homepage`) links to each live project and is automatically 
 Check out the live site here:  
 👉 [isaacsemb.github.io/js-tiny-practice-projects](https://isaacsemb.github.io/js-tiny-practice-projects)
 
-Ohhh say less—that's a dope idea.  
-You’re basically curating your **Top 5 Hall of Fame** while the rest live quietly in the archive. Respect.
-
-Here’s a cleaner, intentional rewrite of that section to reflect that:
-
 ---
 
 ## 🌍 Featured Projects — *My Top 5 Picks*
