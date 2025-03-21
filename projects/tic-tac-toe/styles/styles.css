@@ -1,0 +1,217 @@
+html {
+  font-size: 62.5%;
+}
+
+/* 
+body *{
+    border: 1px solid black;
+} */
+
+.dd {
+  border: 5px solid red !important;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  background-color: #f0f0f0
+}
+
+.game-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1fr);
+  justify-content: center;
+  align-items: center;
+}
+
+.game-container > div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.position {
+  width: 8rem;
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 1px; */
+  background-size: cover;
+  background-position: center;  
+  background-repeat: no-repeat;
+  opacity: 0;  /* Start invisible */
+  transition: opacity 0.25s ease-in-out; /* Smooth fade-in effect */
+}
+
+@media screen and (min-width: 768px) {
+  .position {
+    width: 10rem;
+    height: 10rem;
+  }
+}
+
+.position.p1 {
+  background-image: url("../images/p1.png");
+  opacity: 1; 
+
+}
+
+.position.p2 {
+  background-image: url("../images/p2.png");
+  opacity: 1; 
+
+
+}
+
+.green {
+  background-color: green;
+  opacity: 1;
+  transition: background-color 0.8s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+
+svg {
+  border: none;
+}
+
+.disable {
+  pointer-events: none;
+}
+
+.intro-bar{
+  position: absolute;
+  top: 5rem;
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .intro-bar{
+    font-size: 5rem;
+  }
+  
+}
+
+.turn-teller{
+  text-transform: uppercase;
+  font-size: 3rem;
+  padding-bottom: 3rem;
+
+}
+
+
+.start-button {
+  border: none;
+  padding: 2rem 7rem;
+  border-radius: 5rem;
+  font-size: 2rem;
+  font-weight: bolder;
+  cursor: pointer;
+  margin-bottom: 4rem;
+  text-transform: uppercase;
+  background-color: #4CAF50;
+  color: white;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); /* Soft shadow */
+  transition: all 0.3s ease-in-out;
+}
+
+@media screen and (min-width: 768px) {
+  .start-button{
+    padding: 3rem 10rem;
+    border-radius: 5rem;
+    font-size: 2rem;
+    
+
+  }
+  
+}
+
+.start-button:hover {
+  background-color: #45a049;
+  box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05);
+}
+
+.hide-this{
+  display: none;
+}
+
+.show-this{
+  display: block;
+}
+
+.disable{
+  pointer-events: none;
+}
+
+button.disable{
+  opacity: 0.8;
+}
+
+.restart-button {
+  position: relative;
+  top: 6rem;
+  padding: 1rem;
+  border-radius: 1rem; /* More square-like but still slightly rounded */
+  font-weight: bolder;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: #007BFF; /* Nice vibrant blue */
+  color: white;
+  border: none;
+  opacity: 1;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); /* Soft shadow */
+  transition: all 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.restart-button:hover {
+  background-color: #0069d9; /* Darker blue on hover */
+  box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05);
+}
+
+/* Active (Click) Effect */
+.restart-button:active {
+  background-color: #0056b3; /* Even darker blue */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  transform: scale(0.90);
+}
+
+.restart-button>svg{
+  width: 50px;
+  height: 50px;
+}
+
+.hide-in-place{
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease-in-out;
+}
+
+
+/* Wiggle Animation */
+
+.wiggle-me-daddy {
+  animation: wiggle 1s ease-in-out infinite;
+}
+
+@keyframes wiggle {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(3deg); }
+  50% { transform: rotate(-3deg); }
+  75% { transform: rotate(3deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.scale-up {
+  transform: scale(1.2);
+  transition: transform 0.3s ease-in-out;
+}

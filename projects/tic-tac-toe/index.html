@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="Play a fun and interactive Tic-Tac-Toe game online! Challenge a friend and enjoy smooth animations and a responsive design."
+    />
+
+    <!-- Open Graph Meta Tags (for Facebook, LinkedIn, Discord, etc.) -->
+    <meta property="og:title" content="Play Tic-Tac-Toe Online - Fun & Free!" />
+    <meta
+      property="og:description"
+      content="Challenge your friends to a classic game of Tic-Tac-Toe! Enjoy smooth gameplay, great visuals, and a fun experience."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://isaacsemb.github.io/tic-tac-toe-js/"
+    />
+    <meta
+      property="og:image"
+      content="https://isaacsemb.github.io/tic-tac-toe-js/images/preview.png"
+    />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Play Tic-Tac-Toe Online - Fun & Free!"
+    />
+    <meta
+      name="twitter:description"
+      content="Challenge your friends to a classic game of Tic-Tac-Toe! Enjoy smooth gameplay, great visuals, and a fun experience."
+    />
+    <meta
+      name="twitter:image"
+      content="https://isaacsemb.github.io/tic-tac-toe-js/images/preview.png"
+    />
+
+    <!-- tailwind -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+    <!-- normalize -->
+    <link rel="stylesheet" href="./styles/normalize.css" />
+
+    <!-- local -->
+
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Tic Tac Toe</title>
+    <link rel="icon" type="image/svg+xml" href="./images/tic-tac-toe.svg" />
+  </head>
+  <body>
+    <h1 class="intro-bar">Tic-Tac-Toe 😌</h1>
+    <button class="start-button">start game</button>
+    <div class="game-container">
+      <div class="border-b-4 border-r-4">
+        <span id="1" class="position"></span>
+      </div>
+
+      <div class="border-4 border-t-0">
+        <span id="2" class="position"></span>
+      </div>
+
+      <div class="border-b-4 border-l-4">
+        <span id="3" class="position"></span>
+      </div>
+
+      <div class="border-4 border-l-0">
+        <span id="4" class="position"></span>
+      </div>
+
+      <div class="border-4">
+        <span id="5" class="position"></span>
+      </div>
+
+      <div class="border-4 border-r-0">
+        <span id="6" class="position"></span>
+      </div>
+
+      <div class="border-4 border-l-0 border-b-0">
+        <span id="7" class="position"></span>
+      </div>
+
+      <div class="border-4 border-b-0">
+        <span id="8" class="position"></span>
+      </div>
+
+      <div class="border-4 border-b-0 border-r-0">
+        <span id="9" class="position"></span>
+      </div>
+    </div>
+
+    <button class="restart-button hide-in-place">
+      <svg class="icon">
+        <use xlink:href="./images/restart_sprite.svg#restart"></use>
+      </svg>
+    </button>
+
+    <script src="./scripts.js"></script>
+  </body>
+</html>
