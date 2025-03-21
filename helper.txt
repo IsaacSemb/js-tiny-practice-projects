@@ -1,0 +1,34 @@
+
+clone the repo and cd to it
+    cd js-tiny-practice-projects
+
+
+TIC TAC TOE 
+Adding first project as a remote
+    git remote add tic https://github.com/IsaacSemb/tic-tac-toe-js.git
+    git fetch tic
+
+Merge the code into subfolder
+    git read-tree --prefix=projects/tic-tac-toe/ -u tic/main
+
+commit the changes
+    git commit -m "Imported Tic Tac Toe project with full history"
+
+
+TRAILING HEARTS
+
+Adding first project as a remote
+    git remote add hearts https://github.com/IsaacSemb/p30-001-trailing-hearts.git
+    git fetch hearts
+
+Merge the code into subfolder
+    git read-tree --prefix=projects/trailing-hearts/ -u hearts/main
+
+commit the changes
+    git commit -m "Imported Trailing Hearts project with full history"
+
+OPTIONAL CLEAN UP 
+git remote remove tic
+git remote remove hearts
+
+
