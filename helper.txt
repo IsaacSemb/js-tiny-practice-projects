@@ -32,3 +32,9 @@ git remote remove tic
 git remote remove hearts
 
 
+git commit template
+
+git add .
+git commit -m "
+added google fonts
+"
