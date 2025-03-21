@@ -34,9 +34,13 @@ git remote remove hearts
 
 git commit template
 
+
+
+
+
 git add .
 git commit -m "
 
-added javascript to dynamically shift enties
+added a readme for the project
 
 "
