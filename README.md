@@ -2,7 +2,7 @@
 
 This is my personal JavaScript practice repository.
 
-Anything I find interesting to build using **vanilla JavaScript, HTML, and CSS**, I drop in here—no frameworks, just raw creativity and learning.
+Anything I find interesting to build using **vanilla JavaScript, HTML, and CSS**, I drop in here no frameworks, just raw creativity and learning.
 
 This repository serves as a personal space to sharpen core front-end development skills through consistent, hands-on practice.
 
