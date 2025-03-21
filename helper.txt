@@ -37,6 +37,6 @@ git commit template
 git add .
 git commit -m "
 
-Added css styling
+added javascript to dynamically shift enties
 
 "
