@@ -8,6 +8,7 @@ def look_for_docs_directory(levels_up = 3):
     you can increase the level but JUST DONT BE A MORON !!  
     its easier to position the script better!!!  
     """
+    docs_dir = None
     
     # scripts directory
     script_dir = os.path.dirname(__file__)
@@ -20,11 +21,11 @@ def look_for_docs_directory(levels_up = 3):
             
             # walk the directories and look for the docs folder
             for dirname in dirs:
-                print(dirname)
                 if dirname == 'docs':
-                    return os.path.join(root, dirname)
+                    docs_dir = os.path.join(root, dirname) 
+                    return docs_dir
         script_dir = os.path.dirname(script_dir)
         
-    return  'Not Found'
+    return  docs_dir
 
 
