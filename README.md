@@ -101,7 +101,7 @@ There are no rules here, only the commitment to keep going.
 <details>
 <summary>⚙️ <strong>Automation & Workflow</strong></summary>
 
--  Write a Node.js script to auto-generate the homepage from project folders
+-  Write a Node.js script to auto-generate the Boiler PLate for projects (COMPLETED WITH PYTHON SCRIPT)
 -  Pull project titles and preview images from each folder (README or metadata)
 -  Build a tagging system (e.g. JSON or frontmatter) to flag “featured” projects
 -  Auto-update the **Top 5 Hall of Fame** section based on those tags
