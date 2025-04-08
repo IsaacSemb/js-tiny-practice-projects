@@ -1,14 +1,58 @@
-html{
-    font-size: 62.5%;
+html {
+  font-size: 62.5%;
+  font-family: cursive;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    border: 2px solid black;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 2px solid black; */
 }
 
-.dd{
-    border: 2px solid black;
+.dd {
+  border: 2px solid black;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.testimonial-container {
+  width: 50rem;
+  height: 25rem;
+  background-color: gray;
+  border-radius: 1rem;
+  box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.3);
+  min-width: 40rem;
+  padding: 7rem 2rem;
+  position: relative;
+}
+
+img {
+  width: 10rem;
+}
+
+.img-container {
+  width: 10rem;
+  height: 10rem;
+  overflow: hidden;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50px, -50px);
+}
+
+.text {
+  font-size: 1.5rem;
+  padding: 1rem 0;
+}
+
+.username {
+  font-size: 1.3rem;
+  font-weight: bold;
 }
