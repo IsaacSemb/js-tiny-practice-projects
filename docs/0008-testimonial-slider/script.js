@@ -55,7 +55,7 @@ function updateTestimonial() {
 }
 
 // Change testimonial every 10 seconds
-setInterval(updateTestimonial, 1000);
+setInterval(updateTestimonial, 5000);
 
 // Initialize with the first testimonial
 updateTestimonial();
