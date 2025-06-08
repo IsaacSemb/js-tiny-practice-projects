@@ -26,3 +26,32 @@ monthName.textContent = longMonth
 dayName.textContent = weekDay
 dayNumber.textContent = dayNum
 yearCurrent.textContent = yearCurr
+
+
+function setDynamicFavicon(dayNumber) {
+  const canvas = document.createElement("canvas");
+  canvas.width = 64;
+  canvas.height = 64;
+  const ctx = canvas.getContext("2d");
+
+  // Background
+  ctx.fillStyle = "#e38d3d";
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+  // Text (day of the month)
+  ctx.fillStyle = "#000000";
+  ctx.font = "bold 40px sans-serif";
+  ctx.textAlign = "center";
+  ctx.textBaseline = "middle";
+  ctx.fillText(dayNumber, canvas.width / 2, canvas.height / 2);
+
+  const favicon = document.querySelector("link[rel='icon']") || document.createElement("link");
+  favicon.rel = "icon";
+  favicon.href = canvas.toDataURL("image/png");
+
+  document.head.appendChild(favicon);
+}
+
+// Get current day
+const today = new Date().getDate();
+setDynamicFavicon(today);
